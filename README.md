@@ -3,7 +3,7 @@ haproxy for windows (it is very easier to transfer others server)
 
 #### QuickStart(use quiet mode)
 
-    haproxy.exe -f haproxy.cfg -q
+    haproxy1.8.exe -f haproxy.cfg -q
 
 ### How to generate haproxy .exe
 ```
@@ -34,7 +34,7 @@ to generate exe
 
 #### These 3 files is required for running
 
-    haproxy.exe cyggcc_s-1.dll  cygwin1.dll
+    haproxy1.8.exe cyggcc_s-1.dll  cygwin1.dll
 
 ```
 Usage : haproxy [-f <cfgfile>]* [ -vdVD ] [ -n <maxconn> ] [ -N <maxpconn> ]
