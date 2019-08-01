@@ -1,0 +1,47 @@
+wget https://www.haproxy.org/download/2.0/src/haproxy-2.0.3.tar.gz
+tar -xzvf haproxy-2.0.3.tar.gz
+
+cd haproxy-2.0.3
+
+-------------------------------
+# on windows is E:\tool\haproxy-2.0.3
+-------------------------------
+
+cd  /cygdrive/e/tool/haproxy-2.0.3
+
+make TARGET=cygwin ARCH=x86_64
+
+
+make install
+
+-----------------------------------------------------
+x64
+https://cygwin.com/setup-x86_64.exe
+
+x32
+https://cygwin.com/setup-x86.exe
+
+
+http://mirrors.163.com/cygwin/
+
+
+
+Haproxy------在windows下配置负载均衡
+https://www.cnblogs.com/tianciliangen/p/7985509.html
+
+Starter Guide version 2.0.3
+https://cbonte.github.io/haproxy-dconv/2.0/intro.html
+
+How Lua runs in HAProxy
+http://www.arpalert.org/src/haproxy-lua-api/1.6/
+http://www.arpalert.org/src/haproxy-lua-api/1.9/index.html
+
+
+在Windows里安装运行HAProxy【cygwin法】
+https://blog.csdn.net/gqqnb/article/details/9422719
+
+haproxy windows环境使用
+https://www.cnblogs.com/99fu/p/6154955.html
+
+Windows使用cygwin编译运行haproxy
+https://www.jianshu.com/p/d436a3e73d2f
